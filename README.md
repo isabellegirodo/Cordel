@@ -4,6 +4,6 @@
 
 _Cores utilizadas: **black,white e #E6E5E5**_
 
-Todas asfontes usadas no projeto foram importadas no Google Fonts: 'Great Vibes', 'Anton' e 'Satisfy'
+Todas as fontes usadas no projeto foram importadas no Google Fonts: 'Great Vibes', 'Anton' e 'Satisfy'
 
 [Acesse o link das fontes](https://fonts.google.com)
