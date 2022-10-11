@@ -2,7 +2,10 @@
 
 ## Projeto feito nas aulas de **HTML5 e CSS3** do professor **Gustavo Guanabara**
 
-_Cores utilizadas: **#000000(preto), #FFFFFF(branco) e #E6E5E5(cinza)**_
+_<h3>Cores utilizadas:</h3> 
+* #000000(preto), 
+* #FFFFFF(branco) e 
+* #E6E5E5(cinza)_
 
 ### Todas as fontes usadas no projeto foram importadas no Google Fonts: 'Great Vibes', 'Anton' e 'Satisfy'
 
@@ -11,3 +14,7 @@ _Cores utilizadas: **#000000(preto), #FFFFFF(branco) e #E6E5E5(cinza)**_
 ### Site utilizado para pegar as imagens: **Pexels**
 
 [Link do site](https://www.pexels.com/pt-br/)
+
+### Linguagens Utilizadas:
+* HTML5
+* CSS3
