@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+    --fonte-alternativa: 'Great Vibes', cursive;
+    --fonte-titulo: 'Anton', sans-serif;
+    --fonte-texto: 'Satisfy', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 38px;
+    font-size: 1em;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 5em;
+    padding: 8px;
+    text-transform: initial;
+}
+
+header > p > a{
+    font-family: var(--fonte-texto);
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 28px;
+    padding-left: 9px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #E6E5E5;
+}
+
+section {
+    font-family: var(--fonte-alternativa);
+    padding-left: 26px;
+    padding-bottom: 28px;
+    padding-top: 30px;
+    font-size: 2.6em;
+    line-height: 2.8em;
+}
+
+section.normal {
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.151);
+    font-weight: bold;
+}
+
+section.img {
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.img > p {
+    display: inline-block;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.308);
+    text-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.555);
+}
+
+section#imagem1 {
+    background-image: url(../img/rosa.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+section#imagem2 {
+    background-image: url(../img/papel.jpg);
+    background-position: right center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    font-family: var(--fonte-texto);
+    font-size: 28px;
+}
+
+footer a {
+    font-family: var(--fonte-texto);
+    color: white;
+    text-decoration: none;
+}
